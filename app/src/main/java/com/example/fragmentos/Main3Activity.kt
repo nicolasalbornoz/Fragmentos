@@ -37,8 +37,8 @@ class Main3Activity : AppCompatActivity(), NavigationView.OnNavigationItemSelect
         val manager: FragmentManager = supportFragmentManager
         val transaction: FragmentTransaction = manager.beginTransaction()
 
-        val batmanFragment = BatmanFragment()
-        transaction.add(R.id.contenedor,batmanFragment).commit()
+        val supermanFragment = SupermanFragment()
+        transaction.add(R.id.contenedor,supermanFragment).commit()
     }
 
     override fun onBackPressed() {
